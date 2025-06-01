@@ -1,13 +1,13 @@
 
 print("\033c\033[43;30m\ngive me a piramid size? ")
-filesvar="""b,a,b,a,a,b
-a,a,b,a,a,a
-a,a,a,b,a,a
-b,a,a,b,a,b
-b,a,b,c,c,c
-a,a,b,c,c,c
-a,a,a,c,c,c
-b,a,a,c,c,c"""
+filesvar="""b,b,b,a,b,b
+b,b,a,a,b,a
+b,b,b,b,b,a
+a,b,a,a,b,b
+b,b,b,c,a,c
+a,b,b,c,a,c
+b,b,a,c,a,c
+a,b,a,c,a,c"""
 
 i=int(input())
 print("\033[43;30m\ngive me a output file name? ")
